@@ -1,0 +1,123 @@
+body,
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outer-container {
+  height: 320px;
+  width: 250px;
+  position: relative;
+  border-radius: 10px;
+}
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.front {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-size: 250px 320px;
+}
+
+#front-capricon {
+  background-image: url("https://images.rawpixel.com/image_200/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTExMS1rdmhmb2I5Zy5qcGc.jpg");
+}
+#front-aquaries {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTExMi1rdmhmb2RpMi5qcGc.jpg");
+}
+#front-pisces {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTExMy1rdmhmb2ZhNS5qcGc.jpg");
+}
+
+#front-aries {
+  background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzktMTAyLWt2aGZvZWRpLmpwZw.jpg");
+}
+
+#front-taurus {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTEwMy1rdmhmb2QyYi5qcGc.jpg");
+}
+
+#front-gemini {
+  background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzktMTA0LWt2aGZvZTRyLmpwZw.jpg");
+}
+
+#front-cancer {
+  background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzktMTA1LWt2aGZvZjIwLmpwZw.jpg");
+}
+
+#front-leo {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTEwNi1rdmhmb2cxZy5qcGc.jpg");
+}
+
+#front-virgo {
+  background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzktMTA3LWt2aGZvZ3lpLmpwZw.jpg");
+}
+
+#front-libra {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTEwOC1rdmhmb2h2ai5qcGc.jpg");
+}
+
+#front-scorpio {
+  background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3YxMDc5LTEwOS1rdmhmb2lzdS5qcGc.jpg");
+}
+
+#front-sagi {
+  background-image: url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzktMTEwLWt2aGZvOWduLmpwZw.jpg");
+}
+
+.back {
+  border-radius: 10px;
+  border: solid 1px #8bc6ec;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  transform: rotateY(180deg);
+  text-align: left;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bodyy {
+  color: white;
+  width: 100%;
+  padding: 5rem;
+  padding-top: 1rem;
+  text-align: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
